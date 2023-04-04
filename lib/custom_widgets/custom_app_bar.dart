@@ -43,6 +43,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     );
   }
 
+// standard height of appbar is 56
   @override
   Size get preferredSize => Size(MediaQuery.of(context).size.width, 56);
 }
