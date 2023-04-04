@@ -4,5 +4,5 @@ import 'my_app.dart';
 
 
 void main(List<String> args) {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
